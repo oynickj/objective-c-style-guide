@@ -1,8 +1,6 @@
 # Lunar Objective-C Style Guide
 
-This style guide outlines the coding conventions of the iOS team at The New York Times. We welcome your feedback in [issues](https://github.com/NYTimes/objetive-c-style-guide/issues), [pull requests](https://github.com/NYTimes/objetive-c-style-guide/pulls) and [tweets](https://twitter.com/nytimesmobile). Also, [we're hiring](http://jobs.nytco.com/job/New-York-iOS-Developer-Job-NY/2572221/).
-
-Thanks to all of [our contributors](https://github.com/NYTimes/objective-c-style-guide/contributors).
+This is a style guide for Objective-C projects at Lunar Technology Corporation. It's a fork of [The New York Times' guide](https://github.com/NYTimes/objective-c-style-guide).
 
 ## Introduction
 
