@@ -24,6 +24,7 @@ Here are some of the documents from Apple that informed the style guide. If some
   * [Underscores](#underscores)
 * [Comments](#comments)
 * [Init & Dealloc](#init-and-dealloc)
+* [Pragma marks](#pragma-marks)
 * [Literals](#literals)
 * [CGRect Functions](#cgrect-functions)
 * [Constants](#constants)
@@ -233,6 +234,18 @@ Block comments should generally be avoided, as code should be as self-documentin
     return self;
 }
 ```
+
+## Pragma marks
+
+Pragma marks should be used to organize method definitions within the implementation. All methods in the implementation that belong to the same protcol or superclass (except `dealloc` and `init` methods) should appear consecutively under a pragma mark of the form 
+
+    #pragma mark ProtocolOrSuperclassName
+    
+Methods that do not belong to a protocol or superclass should appear above the topmost pragma mark. Within that set of methods, accessor methods may be grouped under
+
+    #pragma mark accessors
+    
+No other pragma marks should appear in an implementation, and none should appear in a header file.
 
 ## Literals
 
